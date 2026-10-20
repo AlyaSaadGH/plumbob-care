@@ -1,51 +1,95 @@
 # Plumbob Care
 
-**A Windows desktop utility for keeping supported mod and game-related files organized, safer to maintain, and easier to troubleshoot.**
+**An independent Windows desktop utility designed to simplify mod management, cache cleanup, error analysis, performance tracking, and backups.**
 
-Plumbob Care brings essential maintenance tools into one interface. It helps you browse your local mod library, review supported cache files, inspect error reports, create verified backups, and track loading performance — with clear choices before any cleanup action.
-
-> Plumbob Care supports a specific folder structure and selected file types. It is **not** a universal mod manager for every game. Read the in-app setup instructions to confirm compatibility.
-
-## What you can do
-
-| Tool | What it does |
-| --- | --- |
-| **Overview** | See your scanned files, recent activity, and quick actions. |
-| **Mod Library** | Browse, search, and filter supported package and script files without changing them. |
-| **Cache Cleaner** | Review recognized cache categories and select what to send to the Recycle Bin. |
-| **Error Reports** | Read supported local reports and investigate references to installed files. |
-| **Mod Safety** | Request a Microsoft Defender custom scan for selected files or folders, when Defender is available. |
-| **Launch & Performance** | Track launch measurements and confirm when the main menu is reached. |
-| **Backups** | Create local, SHA-256-verified copies of selected data. |
-| **Play Profiles** | Keep local notes for different play sessions. |
-| **Guided 50/50 Test** | Follow a manual, step-by-step process to narrow down a reproducible mod issue. |
-
-## Download
-
-The **Windows portable release** is distributed through [GitHub Releases](https://github.com/AlyaSaadGH/plumbob-care/releases). Choose the latest `PlumbobCare-*-Windows-Portable.zip` file.
-
-1. Download and extract the ZIP to a folder on your computer.
-2. Open the extracted `PlumbobCare` folder.
-3. Run **`PlumbobCare.exe`**. Keep the `_internal` directory next to the executable.
-4. Complete the first-run setup and select your supported folders.
-
-Python is **not** required for the portable build. See [Installation & Safety](docs/INSTALLATION.md) for detailed instructions and precautions.
-
-## Important information
-
-- Plumbob Care works on **Windows** and stores its settings and activity data locally.
-- The app does **not** claim that a mod is broken merely because it appears in an error report.
-- Microsoft Defender scan results are **not** a guarantee of safety or file compatibility. System real-time protection is controlled separately by Windows.
-- Cleanup targets recognized cache locations only; verify the selection and close the supported game first.
-- **Backups can be created and verified, but automatic restoration is not implemented.**
-- Because this is an independent utility, it is not affiliated with, sponsored by, or endorsed by any game publisher or platform owner.
-
-## Support & feedback
-
-Found a problem or have a suggestion? Please [open a GitHub issue](https://github.com/AlyaSaadGH/plumbob-care/issues) with your Windows version, app version, what you tried, and what happened. **Do not attach personal data, save files, or private logs.**
-
-## Source code and ownership
+Plumbob Care brings essential maintenance tools together in one easy-to-use application. It helps users manage their mod library, clean cache files, investigate errors, create backups, and monitor launch performance.
 
 Designed and developed by **Alya Saad**.
 
-© 2026 Alya Saad. All rights reserved. The application's original source code is not distributed through this public repository. Portable executables may include third-party open-source components subject to their own licenses; see [Third-party notices](docs/THIRD_PARTY_NOTICES.md).
+> **Compatibility:** Windows desktop application with dedicated support for The Sims 4. Plumbob Care is not a universal mod manager for all games.
+
+---
+
+## Features
+
+| Feature | Description |
+|---|---|
+| **Overview** | View scanned files, recent activity, and quick actions. |
+| **Mod Library** | Browse, search, and filter supported package and script files. |
+| **Cache Cleaner** | Review and clean supported cache files safely. |
+| **Error Reports** | Inspect error reports and investigate potential mod-related issues. |
+| **Mod Safety** | Scan selected files and folders using Microsoft Defender when available. |
+| **Launch & Performance** | Track launch times and monitor loading performance. |
+| **Backups** | Create and verify local backups of important files. |
+| **Play Profiles** | Keep local notes for different play sessions. |
+| **Guided 50/50 Test** | Follow a guided process to identify potential mod conflicts. |
+
+---
+
+## Download
+
+**Plumbob Care v0.1.0 — First Public Release**
+
+The first public version of Plumbob Care is available for Windows!
+
+**[Download Plumbob Care v0.1.0 — Windows ZIP](https://github.com/AlyaSaadGH/plumbob-care/releases/download/v0.1.0/PlumbobCare-0.1.0-windows.zip)**
+
+You can also view all available versions on the [GitHub Releases page](https://github.com/AlyaSaadGH/plumbob-care/releases).
+
+### Installation
+
+1. Download `PlumbobCare-0.1.0-windows.zip`.
+2. Extract the ZIP file to a folder on your computer.
+3. Open the extracted folder.
+4. Run `PlumbobCare.exe`.
+5. Complete the initial setup and start using Plumbob Care!
+
+**Requirements:**
+- Windows operating system.
+- No Python installation required.
+- Keep the `_internal` directory alongside the executable.
+
+For more details, see the [Installation & Safety Guide](PlumbobCare_Public_GitHub_Files/docs/INSTALLATION.md).
+
+---
+
+## Important Information
+
+- Plumbob Care stores its settings and activity data locally.
+- Mod scanning and error reports help identify potential issues but do not guarantee accurate detection of every broken mod.
+- Microsoft Defender must be available for security scanning features.
+- Cache cleaning is limited to recognized files and folders.
+- Backups can be created and verified. Restoration is currently a manual process.
+- Always close the supported game before performing maintenance operations.
+
+---
+
+## Support & Feedback
+
+If you encounter a bug, experience an issue, or have suggestions for future improvements, feel free to [open a GitHub issue](https://github.com/AlyaSaadGH/plumbob-care/issues).
+
+When reporting an issue, please include:
+- Your Windows version.
+- Your Plumbob Care version.
+- A description of the issue.
+- Steps to reproduce the problem, if possible.
+
+Please avoid sharing personal information, private files, or sensitive logs.
+
+Your feedback is always appreciated!
+
+---
+
+## Developer & Ownership
+
+**Plumbob Care** is an independent software project personally designed and developed by **Alya Saad**.
+
+© 2026 Alya Saad. All rights reserved.
+
+The application's original source code is proprietary and is not publicly distributed through this repository.
+
+Third-party components remain subject to their respective licenses. See the [Third-Party Software Notices](PlumbobCare_Public_GitHub_Files/docs/THIRD_PARTY_NOTICES.md).
+
+### Disclaimer
+
+Plumbob Care is an independent, fan-made application and is not affiliated with, sponsored by, or endorsed by Electronic Arts (EA) or The Sims.
